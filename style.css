@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&family=Roboto:ital@1&display=swap');
+
+body {
+    color:#c4c4c4 ;
+    margin: 0;
+}
+/***********docplanner header **********************/
+.docplanner-header {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    justify-content: space-between;
+    padding: 10px;
+}  
+.logo-docplanner {
+    height: 30px;
+}  
+.header-menu ul {
+    display: flex;
+    gap: 20px;
+}
+.header-menu li {
+    list-style-type: none;
+}
+.header-menu a {
+    text-decoration: none;
+    color: #c4c4c4;
+}
+.header-menu a:hover {
+    color: #00b39b;
+}
+.header-menu .active {
+    color: #00b39b ;
+}
+.leading-menu{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.introduction-title {
+    color:#00b39b ;
+    size: 2,125cm;
+    font-family: 'Roboto', sans-serif;
+}    
+.introduction-description {
+    display: flex;
+    gap: 20px;
+}
+.introduction-description p {
+    line-height: 1.75;
+}
+.services {
+    display: flex;
+    gap: 20px;
+}
+.service-box  {
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.service-patient {
+    background-color: #00b39b;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    justify-content: space-between;
+    width: 50%;
+
+
+}
+.service-doctor {
+    background-color: #3d83df;
+}
+.service-clinic {
+    background-color: black;
+}
+@media screen and ( max-width:700px)  {
+    .services {
+        flex-direction: column;
+    }
+    
+}
+.service-box {
+    width: 100%;
+}
